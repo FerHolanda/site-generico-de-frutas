@@ -1,0 +1,84 @@
+<DOCTYPE html>
+<html lang="pt">
+<head>
+
+	<meta HTTP-EQUIV="content-type" CONTENT="text/html"; charset="UTF-8"/>
+    <meta HTTP-EQUIV="content-language" CONTENT="pt-br"/>
+    <meta NAME="author" CONTENT="Danilo Dameluz, Fernanda Cardozo, Fernando Holanda" />
+    <meta NAME="description" CONTENT="Trabalho P1"/>
+    <meta NAME="keywords" CONTENT="html, css, nutrição, frutas"/>
+    <title>DFF Nutrição - Home</title>
+    <link rel="shortcut icon" href="imagens/frutas_icone.jpeg">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/site.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,600">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Shadows+Into+Light">
+
+</head>
+
+<script type="text/javascript" src="validacao.js"></script>
+
+<body>
+	<header class="titulo-principal">
+        <h1>DFF Nutrição</h1>
+    </header>
+
+    <main>
+    	<form name="dados" action="#" onsubmit="return validar(this)">
+		<p>
+			<img class="img" src="imagens/banana.webp"><input type="checkbox" name="banana" value="Banana">
+			<input type="text" name="precobanana" value="3,90" readonly>
+			<input type="text" name="quantbanana" value="">
+			<br>
+
+			<img class="img" src="imagens/melancia.png"><input type="checkbox" name="melancia" value="Melancia">
+			<input type="text" name="precomelancia" value="3,90" readonly>
+			<input type="text" name="quantmelancia" value="">
+			<br>
+
+			<img class="img" src="imagens/abacate.png"><input type="checkbox" name="abacate" value="Abacate">
+			<input type="text" name="precoabacate" value="3,90" readonly>
+			<input type="text" name="quantabacate" value="">
+			<br>
+
+			<img class="img" src="imagens/maracujá.png"><input type="checkbox" name="maracuja" value="Maracuja">
+			<input type="text" name="precomaracuja" value="3,90" readonly>
+			<input type="text" name="quantmaracuja" value="">
+			<br>
+
+			<img class="img" src="imagens/maça.webp"><input type="checkbox" name="maca" value="Maça">
+			<input type="text" name="precomaca" value="3,90" readonly>
+			<input type="text" name="quantmaca" value="">
+			<br>
+
+			<img class="img" src="imagens/limão.png"><input type="checkbox" name="limao" value="Limao">
+			<input type="text" name="precolimao" value="3,90" readonly>
+			<input type="text" name="quantlimao" value="">
+			<br>
+
+		</p>
+		<p>
+			<input type="radio" name="pagamento" value="crédito">
+			<input type="text" name="debito" height="200px" value="crédito" readonly>
+			<br>
+			<br>
+			<input type="radio" name="pagamento" value="débito">
+			<input type="text" name="credito" height="200px" value="débito" readonly>
+			<br>
+			<br>
+			<input type="radio" name="pagamento" value="dinheiro">
+			<input type="text" name="dinheiro" height="200px" value="dinheiro" readonly>
+			<br>
+			<br>
+
+			<input type="checkbox" name="concordo" value="sim">
+			Concordo com o site
+		</p>
+		<p>
+			<input type="submit" name="enviar" value="ENVIAR">
+		</p>
+	</form>
+    </main>
+</body>

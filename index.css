@@ -1,0 +1,31 @@
+html, body {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #d7d7d7;
+    perspective: 6px;
+    perspective-origin: 50% 160px;
+    display: block;
+}
+
+header {
+    position: relative;
+}
+
+
+main {
+    width: 100%;
+    padding-bottom: 0;
+    float: none;
+}
+.container{
+	display: grid;
+    grid-template-rows: 33% 33% 33%;
+}
+.img{
+	height: 210px;
+	width: 210px;
+}
+
